@@ -5,39 +5,97 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   <title>Frontend Mentor | Suite landing page</title>
 </head>
 <body>
-
-  Request Beta Access
-
-  A super solution for your business.
-
-  Our marketing and sales automations help you scale your outreach to 
-  get more leads for your company. 
-
-  Request Beta Access
-
-  2K+
-  Companies
-
-  8
-  Languages
-
-  1.2M
-  Leads
-
-  It just works.
-
-  “I really like how it is an all-in-one solution that handle many of 
-  the tasks that you would normally need separate tools to do the same 
-  job. This thing is a miracle worker.”
-
-  Jeremy Robinson
-  CMO, Fylo
-
-  Copyright - Suite
-
+  <nav>
+    <h1>suite</h1>
+    <div><button>Request Beta Access</button></div>
+  </nav>
+  <main>
+    <section class="presentation">
+      <div class="p-solution">
+        <img src="./assets/pattern-curved-line-1.svg" alt="curved" />
+        <h1>A <b>super solution</b> for your <b>business.</b></h1>
+        <p>
+          Our marketing and sales automations help you scale your outreach to
+          get more leads for your company.
+        </p>
+        <button>Request Beta Access</button>
+      </div>
+      <div class="p-img">
+        <picture>
+          <source
+            media="(min-width:768px)"
+            srcset="./assets/image-hero-portrait@2x.webp"
+          />
+          <img src="./assets/image-hero-landscape.webp" alt="image-hero" />
+        </picture>
+      </div>
+      <div class="p-data">
+        <div>
+          <h1>2K+</h1>
+          <p>Companies</p>
+        </div>
+        <div>
+          <h1>8</h1>
+          <p>Languages</p>
+        </div>
+        <div>
+          <h1>1.2M</h1>
+          <p>Leads</p>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="about-area">
+        <div class="img-container">
+          <picture>
+            <source
+              media="(min-width:650px)"
+              srcset="./assets/image-jeremy-large@2x.webp"
+            />
+            <img src="./assets/image-jeremy-small.webp" alt="" />
+          </picture>
+        </div>
+        <img
+          class="pattern-curved"
+          src="./assets/pattern-curved-line-2.svg"
+          alt=""
+        />
+        <div class="about-content">
+          <h1>It just <b>works.</b></h1>
+          <p>
+            “I really like how it is an all-in-one solution that handle many
+            of the tasks that you would normally need separate tools to do the
+            same job. This thing is a miracle worker.”
+          </p>
+          <div class="cmo">
+            <h2>Jeremy Robinson</h2>
+            <p>CMO, Fylo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="mask"></div>
+    <div class="f-container">
+      <h2>suite</h2>
+      <p>Copyright - Suite</p>
+      <div class="social-links">
+        <img src="./assets/icon-facebook.svg" alt="icon-facebook" />
+        <img src="./assets/icon-twitter.svg" alt="icon-twitter" />
+        <img src="./assets/icon-instagram.svg" alt="icon-instagram" />
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
