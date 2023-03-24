@@ -100,6 +100,12 @@ nav button:hover{
     color: #FAF8F6;
 }
 
+.p-solution button:hover{
+    cursor: pointer;
+    border: 0px;
+    background: radial-gradient(circle at top left, #A060FF, #CB30E3, #FFA84E);
+}
+
 .p-img{
     grid-area: img;
     padding: 0px 20px;
@@ -334,6 +340,7 @@ footer p{
         letter-spacing: 0.0888889px;
         margin-top: 0px;
     }
+    
 
     
     .p-img{
@@ -454,13 +461,6 @@ footer p{
         letter-spacing: 0.0888889px;
         margin-top: 0px;
     }
-
-    .p-solution button:hover{
-        cursor: pointer;
-        border: 0px;
-        background: radial-gradient(circle at top left, #A060FF, #CB30E3, #FFA84E);
-    }
-
     
     .p-img{
         position: absolute;
