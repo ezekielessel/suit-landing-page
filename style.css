@@ -32,6 +32,11 @@ nav button{
     border: 1px solid #172339;
     border-radius: 8px;
 }
+nav button:hover{
+    cursor: pointer;
+    background-color: #172339;
+    color: #FAF8F6;
+}
 
 
 .presentation{
@@ -393,11 +398,7 @@ footer p{
         margin: 0px auto;  
     }
 
-    nav button:hover{
-        cursor: pointer;
-        background-color: #172339;
-        color: #FAF8F6;
-    }
+    
 
     .presentation{
         position: relative;
